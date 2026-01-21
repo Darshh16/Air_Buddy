@@ -1,0 +1,11 @@
+# Computer Vision & Deep Learning
+tensorflow==2.15.0
+opencv-python==4.8.1.78
+Pillow==10.1.0
+
+# Existing packages (if not already there)
+Django==4.2.7
+requests==2.31.0
+numpy==1.24.3
+pandas==2.1.3
+scikit-learn==1.3.2

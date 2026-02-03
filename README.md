@@ -102,13 +102,12 @@ Air pollution is a growing global concern affecting millions of lives. AirBudy a
 
 ### Prerequisites
 - Python 3.8+
-- Node.js 14+ (if using Node backend)
 - pip or conda
 - Git
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/airbudy.git
+git clone https://github.com/Darshh16/airbudy.git
 cd airbudy
 ```
 
@@ -129,18 +128,7 @@ cp .env.example .env
 python manage.py migrate
 
 # Start the backend server
-python app.py
-```
-
-### Frontend Setup
-```bash
-cd frontend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+python manage.py runserver
 ```
 
 ### Access the Application
@@ -265,9 +253,7 @@ We welcome contributions from the community! Here's how you can help:
 
 ## 🗺️ Roadmap
 
-- [ ] Mobile app for iOS and Android
 - [ ] Integration with government AQI monitoring systems
-- [ ] Multi-language support
 - [ ] Advanced ML models for better predictions
 - [ ] Blockchain-based reward system
 - [ ] Community forums and discussions
@@ -281,25 +267,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👥 Team
-
-- **Project Lead**: [Your Name]
-- **ML Engineers**: [Names]
-- **Full Stack Developers**: [Names]
-- **UI/UX Designers**: [Names]
-
----
-
-## 📧 Contact
-
-For questions, suggestions, or collaboration opportunities:
-
-- **Email**: contact@airbudy.com
-- **Website**: https://airbudy.com
-- **Twitter**: @AirBudy
-- **Discord**: [Join our community](https://discord.gg/airbudy)
-
----
 
 ## 🙏 Acknowledgments
 

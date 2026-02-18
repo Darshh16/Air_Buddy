@@ -64,17 +64,15 @@ Air pollution is a growing global concern affecting millions of lives. AirBudy a
 ## 🛠️ Technology Stack
 
 ### Frontend
-- React.js / Next.js (or your framework)
-- Chart.js / D3.js for data visualization
-- Tailwind CSS / Bootstrap for styling
+- Html, JS
+- CSS / Bootstrap for styling
 
 ### Backend
-- Python (Flask/Django/FastAPI)
-- Node.js / Express (if applicable)
+- Python (Django)
 - RESTful API architecture
 
 ### Machine Learning
-- **AQI Prediction Model**: Scikit-learn / TensorFlow / PyTorch
+- **AQI Prediction Model**: Scikit-learn / TensorFlow / PyTorch / 
 - **Time Series Forecasting**: LSTM / ARIMA models
 - **Policy Simulation**: Regression models
 
@@ -96,6 +94,12 @@ Air pollution is a growing global concern affecting millions of lives. AirBudy a
 - AWS / Google Cloud / Azure for hosting
 - CI/CD pipeline with GitHub Actions
 
+### Model Training 
+- 50 percent training 
+- 30 test 
+- 20 validation 
+- Random forest + xgboost(Techniques)
+
 ---
 
 ## 🚀 Installation
@@ -108,7 +112,6 @@ Air pollution is a growing global concern affecting millions of lives. AirBudy a
 ### Clone the Repository
 ```bash
 git clone https://github.com/Darshh16/airbudy.git
-cd airbudy
 ```
 
 ### Backend Setup
@@ -130,10 +133,6 @@ python manage.py migrate
 # Start the backend server
 python manage.py runserver
 ```
-
-### Access the Application
-- Frontend: http://localhost:3000
-- Backend API: http://localhost:5000
 
 ---
 
@@ -228,7 +227,7 @@ We welcome contributions from the community! Here's how you can help:
 ## 📊 Model Performance
 
 ### AQI Prediction Model
-- **Accuracy**: 92%
+- **Accuracy**: 96%
 - **MAE**: 8.5 AQI units
 - **R² Score**: 0.89
 
@@ -255,7 +254,7 @@ We welcome contributions from the community! Here's how you can help:
 
 - [ ] Integration with government AQI monitoring systems
 - [ ] Advanced ML models for better predictions
-- [ ] Blockchain-based reward system
+- [ ] OCR based reward system 
 - [ ] Community forums and discussions
 - [ ] Integration with smart home devices
 
